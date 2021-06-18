@@ -2,6 +2,7 @@
 session_start();
 include_once "lib/conexion.php";
 
+
 class Aplicacion_Seguridad {
 
     var $codigo;//Este codigo identifica la aplicacion en la base de datos de seguridad
