@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/login.js"></script>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
     <link rel="stylesheet" type="text/css" href="css/session.css">
     <title>Yolisa Konedo</title>
 </head>
@@ -23,37 +25,72 @@
 					</div>
 				</div>
 				<div class="d-flex justify-content-center form_container">
-					<form id="login" name="login" method="post" action="session.php">
-						<div class="input-group mb-3">
-							<div class="input-group-append">
-								<span class="input-group-text"><i class="fas fa-user"></i></span>
-							</div>
-							<input type="text" name="usuario" class="form-control input_user" value="" placeholder="Usuario">
+					<div class="flat-form">
+						<ul class="tabs">
+						  <li>
+							<a href="#login" class="active">Iniciar Sessión</a>
+						  </li>
+						  <li>
+							<a href="#register">Registrese</a>
+						  </li>
+						  <li>
+							<a href="#reset">Recordar contraseña</a>
+						  </li>
+						</ul>
+						<div id="login" class="form-action show">
+						  <form action="session.php" method="post">
+							<ul>
+							  <li>
+								<input type="text" placeholder="Usuario" name="usuario"/>
+							  </li>
+							  <li>
+								<input type="password" placeholder="Contraseña" name="contrasena"/>
+							  </li>
+							  <li>
+								<input type="hidden" value="1" name="op"/>
+								<input type="submit" value="Login" class="button" />
+							  </li>
+							</ul>
+						  </form>
 						</div>
-						<div class="input-group mb-2">
-							<div class="input-group-append">
-								<span class="input-group-text"><i class="fas fa-key"></i></span>
-							</div>
-							<input type="password" name="contrasena" class="form-control input_pass" value="" placeholder="Contraseña">
+						<!--/#login.form-action-->
+						<div id="register" class="form-action hide">
+						  <form>
+							<ul>
+							  <li>
+								<input type="text" placeholder="Username" />
+							  </li>
+							  <li>
+								<input type="password" placeholder="Password" />
+							  </li>
+							  <li>
+								<input type="submit" value="Sign Up" class="button" />
+							  </li>
+							</ul>
+						  </form>
 						</div>
-							<div class="d-flex justify-content-center mt-3 login_container">
-					    <input name="op" type="hidden" id="op" value="1">
-				 	<button type="submit" name="button" class="btn login_btn">Iniciar Sesión</button>
-				   </div>
-					</form>
-				</div>
-		
-				<div class="mt-4">
-					<div class="d-flex justify-content-center links">
-						¿No Tienes Cuenta? <a href="#" class="ml-2">Registrate
-                        </a>
-					</div>
-					<div class="d-flex justify-content-center links">
-						<a href="#">Olvidaste tu contraseña?</a>
-					</div>
+						<!--/#register.form-action-->
+						<div id="reset" class="form-action hide">
+						  <form>
+							<ul>
+							  <li>
+								<input type="text" placeholder="Email" />
+							  </li>
+							  <li>
+								<input type="text" placeholder="Birthday" />
+							  </li>
+							  <li>
+								<input type="submit" value="Send" class="button" />
+							  </li>
+							</ul>
+						  </form>
+						</div>
+						<!--/#register.form-action-->
+					  </div>
 				</div>
 			</div>
 		</div>
 	</div>
+	
 </body>
 </html>
