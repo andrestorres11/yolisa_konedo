@@ -1,0 +1,98 @@
+.hola_1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   color: #000000;
+}
+
+.titulo{
+    color: #FFFFFF ;
+    text-align:100%;
+
+}
+
+.form-control{
+    width:750px;
+    height: 100px;
+    margin-left:1%
+
+}
+
+.tratar_receta{
+    margin-left: 32%;
+    height: 150px;
+    width: 400px;
+}
+
+.pyke{
+    text-align: center;
+    color: #FFFFFF  ;
+}
+
+.form-control_1{
+    margin-left: 5%;
+    height: 150px;
+    width: 400px;
+    
+
+}
+
+.form-control_2{
+    margin-left: 32%;
+    height: 150px;
+    width: 400px;
+    margin-top: 5%;
+}
+
+.boton_1{
+    text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:#333333;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:#FFD27D;
+border-color: #d8d8d8;
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
+margin-left: 25%;
+margin-right: 50%;
+      
+}
+
+.input_minutos{
+    margin-left: 1%;
+    color:#FFFFFE;
+    margin-top: 2%;
+    
+    
+}
+
+.body{
+    background-image: url(../img/madera.jpg);
+    background-size: 100%;
+    font-family:Times New Roman;
+}
+
+.dom_select{
+    color:#FFFFFE;
+    margin-left: 20%;
+}
+
+.input_porciones{
+    color:#FFFFFE;
+    margin-left: 1%;
+    margin-top: 1%;
+
+}
+      
+.tips_1{
+    margin-left: 5%;
+    height: 150px;
+    width: 400px 
+}
+
+

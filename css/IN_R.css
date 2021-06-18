@@ -1,0 +1,22 @@
+
+
+#prueba {
+    width: 70%;;
+    max-width:70%;
+    margin:  auto;
+    overflow:hidden;
+    background-color:#313131c4;
+    border-collapse:collapse;
+    border-radius: 7px;
+}
+
+
+#tentacion {
+    width: 70%;;
+    max-width:70%;
+    margin:  auto;
+    overflow:hidden;
+    background-color:#3030309f;
+    border-collapse:collapse;
+    border-radius: 3px;
+}

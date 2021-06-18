@@ -1,0 +1,114 @@
+	/* Coded with love by Mutiullah Samim */
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background: #507B67 !important;
+        color: #EAD6B3;
+    }
+    .user_card {
+        height: 400px;
+        width: 500px;
+        margin-top: auto;
+        margin-bottom: auto;
+        background: #2d5a45;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+
+    }
+    .brand_logo_container {
+        position: absolute;
+        height: 170px;
+        width: 170px;
+        top: -75px;
+        border-radius: 50%;
+        background: #507B67;
+        padding: 10px;
+        text-align: center;
+    }
+    .brand_logo {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+    }
+    .form_container {
+        margin-top: 100px;
+    }
+    .login_btn {
+        width: 100%;
+        background: #9A6046 !important;
+        border: 1px solid #392721;
+        color: white !important;
+    }
+    .login_btn:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .login_container {
+        padding: 0 2rem;
+    }
+    .input-group-text {
+        background: #9A6046 !important;
+        color: white !important;
+        border: 0 !important;
+        border-radius: 0.25rem 0 0 0.25rem !important;
+    }
+    .input_user,
+    .input_pass:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+    .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+        background-color: #c0392b !important;
+    }
+
+    a:hover {
+        color: #EAD6B3;
+        text-decoration: none;
+    }
+
+    a{
+        color: #eec378;
+        font-weight: bold;
+    }
+
+    .social {
+        position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+        left: 0; /* Establecemos la barra en la izquierda */
+        top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+        z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+    }
+    
+        .social ul {
+            list-style: none;
+        }
+    
+        .social ul li a {
+            display: inline-block;
+            color:#fff;
+            background: #000;
+            padding: 10px 15px;
+            text-decoration: none;
+            -webkit-transition:all 500ms ease;
+            -o-transition:all 500ms ease;
+            transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+        }
+    
+        .social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+        .social ul li .icon-twitter {background: #00abf0;}
+        .social ul li .icon-googleplus {background: #d95232;}
+        .social ul li .icon-pinterest {background: #ae181f;}
+        .social ul li .icon-mail {background: #666666;}
+    
+        .social ul li a:hover {
+            background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+            padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+        }

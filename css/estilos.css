@@ -1,0 +1,119 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: helvetica ;
+
+}
+
+.Boton_imagen{
+        margin-top: -80%;
+        margin-left: 20%;
+        margin-right: 0%;
+
+}
+
+p#texto{
+  text-align: center;
+  color:#000000 ;
+}
+
+div#subir_imagen{
+   position:relative;
+   margin: 50px;
+   padding: 10px;
+   width: 150px;
+   height: 50px;
+   top: 0;
+   background-color: #B1CBAC ;
+   -webkit-border-radius:5px;
+   -webkit-box-shadow:0px  3px 0px #b1cbac94 ;
+ }
+
+
+input#btn_enviar{
+  position:absolute;
+  top: 0%;
+  left:0%;
+  right: 0%;
+  bottom:0px;
+  width: 100%;
+  height: 100%;
+  opacity:0;
+  
+}
+.card{  
+  margin-top: 20%;
+  margin-left: 0%;
+  margin-right: 100%;
+  height: 100% ;
+  width: 35%;
+  background-color: #a4fcc969 ;
+
+}
+
+.body{
+  background-color: #21935E;
+}
+
+.nombre{
+  margin-top: 15%;
+  margin-left: 95%;
+  margin-right: 0%;
+
+}
+
+.ingredientes{
+    
+  margin-top: 10%;
+  margin-left: 95%;
+  margin-right: 0%;
+
+
+}
+
+.preparacion{        
+  margin-top: 10%;
+  margin-left: 95%;
+  margin-right: 0%;
+}
+
+.texto_1{
+  text-align: center;
+}
+
+.boton_1{
+  text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:#333333;
+padding-top:15px;
+padding-bottom:15px;
+padding-left:40px;
+padding-right:40px;
+background-color:#B1CBAC;
+border-color: rgba(216, 216, 216, 0.719);
+border-width: 3px;
+border-style: solid;
+border-radius:35px;
+margin-left: 70%;
+margin-right: 25%;
+margin-top: 60%
+    
+}
+
+.input_minutos{
+  margin-left: 1%;
+  color:#FFFFFE;
+  margin-top: 2%;
+  
+  
+}
+
+
+.texto_2{
+ 
+  text-align: center;
+  color: #000000;
+}
+
+
