@@ -2,7 +2,6 @@
 session_start();
 include_once "lib/conexion.php";
 
-
 class Aplicacion_Seguridad {
 
     var $codigo;//Este codigo identifica la aplicacion en la base de datos de seguridad
@@ -16,6 +15,7 @@ class Aplicacion_Seguridad {
         $this->principal();
     }
 
+    
     function Principal() {
         if ($this->inicio_sesion()) {
             $this->paginaPrincipal();

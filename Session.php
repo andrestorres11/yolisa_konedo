@@ -4,6 +4,7 @@ include_once "modelos/usuario.php";
 
 class Session {
 
+    
     var $codigo, //Este codigo identifica la aplicacion en la base de datos de seguridad
         $usuario_aplicacion, //El usuario que hace uso de la aplicaci�n
         $conexion; //EL enlace que debe establecer con la base de datos
